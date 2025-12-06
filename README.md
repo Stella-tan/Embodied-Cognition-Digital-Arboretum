@@ -238,7 +238,7 @@ embodied_cognition/
 ## 📸 Screenshots & Demos
 
 ### 🎬 DNA Designer Interface
-
+https://github.com/user-attachments/assets/a2bc387a-7c54-43b5-a97d-8eea69df5497
 <p align="center">
   <video src="short_video_image/DNA_designer.mp4" controls width="700" autoplay loop muted>
     Your browser does not support the video tag.
@@ -250,7 +250,7 @@ embodied_cognition/
 </p>
 
 ### 🎬 Trait Information Dialog
-
+https://github.com/user-attachments/assets/5975022d-cb8f-42d4-9bd7-9561bf7140df
 <p align="center">
   <video src="short_video_image/traits_info.mp4" controls width="700" autoplay loop muted>
     Your browser does not support the video tag.
