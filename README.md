@@ -23,6 +23,52 @@ The platform uses **Claude Sonnet 4** to intelligently generate realistic geneti
 
 ---
 
+## 🎯 Problem Statement
+
+Traditional synthetic biology tools face several challenges:
+
+- **Accessibility Gap** — Designing genetic sequences requires deep expertise in molecular biology, limiting participation to specialists
+- **Visualization Limitations** — Most tools lack intuitive 3D representations of genetic structures, making it difficult to understand complex biological constructs
+- **Disconnected Workflows** — Existing platforms separate trait selection, sequence generation, environmental simulation, and synthesis planning into isolated tools
+- **Educational Barriers** — Learning synthetic biology concepts is abstract without interactive, visual feedback systems
+- **Extraterrestrial Biology Gap** — No accessible tools exist for exploring organism design for extreme planetary environments
+
+---
+
+## 🏁 Aims & Objectives
+
+### Aim
+
+To develop an AI-powered, interactive platform that democratizes synthetic biology design by enabling users to create, visualize, simulate, and plan the synthesis of chimeric organisms through an intuitive interface.
+
+### Objectives
+
+1. **Create an Intuitive Trait Selection System**
+   - Curate 70+ biological traits with scientific references across 10 categories
+   - Enable custom trait creation through natural language descriptions
+
+2. **Implement AI-Driven Sequence Generation**
+   - Leverage Claude Sonnet 4 for realistic DNA, RNA, protein, and plasmid generation
+   - Automatically detect appropriate output structure based on trait combinations
+
+3. **Develop Real-Time 3D Visualization**
+   - Build interactive 3D models for DNA helices, RNA strands, proteins, and plasmids
+   - Provide immediate visual feedback during the design process
+
+4. **Build Planetary Environment Simulation**
+   - Simulate organism viability on Mars, Europa, Titan, and Venus
+   - Provide AI-powered survival analysis and adaptation recommendations
+
+5. **Create Evolutionary Optimization Tools**
+   - Implement genetic algorithms for multi-generational fitness optimization
+   - Track emergent traits and evolutionary trade-offs
+
+6. **Design Synthesis Planning Interface**
+   - Generate actionable DNA assembly plans with codon optimization
+   - Support multiple assembly methods (Gibson, Golden Gate, Traditional Cloning)
+
+---
+
 ## ✨ Features
 
 ### 🧬 AI DNA Designer
@@ -186,6 +232,109 @@ embodied_cognition/
 3. **Simulate** — Test organism viability in extreme planetary environments
 4. **Evolve** — Run evolutionary optimization over generations
 5. **Synthesize** — Generate actionable DNA synthesis plans for lab work
+
+---
+
+## 📸 Screenshots & Demos
+
+### 🎬 DNA Designer Interface
+
+<p align="center">
+  <video src="short_video_image/DNA_designer.mp4" controls width="700" autoplay loop muted>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+<p align="center">
+  <em>Interactive DNA Designer with trait selection and real-time 3D visualization</em>
+</p>
+
+### 🎬 Trait Information Dialog
+
+<p align="center">
+  <video src="short_video_image/traits_info.mp4" controls width="700" autoplay loop muted>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+<p align="center">
+  <em>Scientific references and detailed trait information with bilingual support</em>
+</p>
+
+### 🌍 Planetary Survival Simulation
+
+<p align="center">
+  <img src="short_video_image/Survival_simulation.png" width="700" alt="Planetary Survival Simulation" />
+</p>
+
+<p align="center">
+  <em>Test organism viability on Mars, Europa, Titan, and Venus with AI-powered analysis</em>
+</p>
+
+### 🔄 Evolutionary Optimizer
+
+<p align="center">
+  <img src="short_video_image/evalution_optimization.png" width="700" alt="Evolutionary Optimizer" />
+</p>
+
+<p align="center">
+  <em>Run genetic algorithms across 100-500 generations with real-time fitness tracking</em>
+</p>
+
+### 🧪 Synthesis Interface
+
+<p align="center">
+  <img src="short_video_image/synthetic_io.png" width="700" alt="Synthesis Interface" />
+</p>
+
+<p align="center">
+  <em>Generate real-world DNA synthesis plans with codon optimization and assembly methods</em>
+</p>
+
+---
+
+## 🧬 3D Genetic Structure Visualizations
+
+The platform automatically determines the output structure type based on selected traits. Each visualization is scientifically accurate with distinct 3D features:
+
+| Structure | Icon | 3D Features |
+|-----------|------|-------------|
+| **DNA** | 🧬 | Double helix, base pairs (A-T, G-C), two phosphate backbones |
+| **RNA** | 📜 | Single strand, hairpin loops, 5'/3' end markers |
+| **Protein** | 🔮 | Folded polypeptide chain, alpha helices, beta sheets, active site |
+| **Plasmid** | 🌀 | Circular DNA, oriC marker, antibiotic resistance gene, MCS region |
+
+### Structure Preview Gallery
+
+<p align="center">
+  <img src="short_video_image/DNA.png" width="400" alt="DNA Double Helix" />
+  <img src="short_video_image/RNA.png" width="400" alt="RNA Single Strand" />
+</p>
+<p align="center">
+  <img src="short_video_image/Protein.png" width="400" alt="Protein Structure" />
+  <img src="short_video_image/Circular_plasmid.png" width="400" alt="Circular Plasmid" />
+</p>
+
+### Trait Combinations → Structure Examples
+
+The AI automatically selects the appropriate genetic structure based on your trait selections:
+
+| Traits Selected | Output Structure |
+|-----------------|------------------|
+| **Thermophilic** + **Biosensor (Arsenic)** | 🌀 Plasmid — Bacterial/synthetic constructs for engineered expression |
+| **Exoskeleton** + **Venom Synthesis** | 🔮 Protein — Structural proteins and enzyme complexes |
+| **Rapid Cell Division** + **Metamorphosis** | 📜 RNA — Gene expression and developmental regulation |
+| **Pressure Adaptation** + **Salinity Tolerance** | 🧬 DNA — Genomic constructs for complex adaptations |
+
+**More Examples:**
+
+- 🌀 **Plasmid**: Radioresistance + CRISPR Self-Repair → *Engineered radiation-resistant bacterial vector*
+- 🌀 **Plasmid**: Halophilic + Genetic Kill Switch → *Biosafety-controlled extremophile expression system*
+- 🔮 **Protein**: Spider Silk + Antifreeze Proteins → *Structural fusion protein with cold adaptation*
+- 🔮 **Protein**: Bioluminescence + Electric Organ → *Multi-functional marine-derived protein complex*
+- 📜 **RNA**: C4 Photosynthesis + Mycelium Network → *Regulatory mRNA for metabolic pathways*
+- 📜 **RNA**: Deep Root System + Nitrogen Fixation → *Plant developmental signaling transcript*
+- 🧬 **DNA**: Pressure Adaptation + Electroreception → *Genomic cassette for deep-sea sensory system*
 
 ---
 
