@@ -388,6 +388,8 @@ Example trait entry:
 
 ---
 
+Demo Video: https://youtu.be/pzqQ0hY06oE
+
 ## 📄 License
 
 Created for the **Cursor Hackathon** 🏆
